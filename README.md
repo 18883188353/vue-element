@@ -1,2 +1,5 @@
-# vue-element
-饿了么后台管理系统
+# customerService
+
+新版客服系统(vue+element)
+
+npm run build -- dev(打包)

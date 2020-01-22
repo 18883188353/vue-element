@@ -1,0 +1,181 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fl{ float: left;}
+.fr{ float: right;}
+.tc{ text-align: center;}
+.tl{ text-align: left;}
+.tr{ text-align: right;}
+.fw{ font-weight: bold;}
+.fwn{ font-weight: normal;}
+.clear{ clear: both;}
+
+.f12{ font-size: 12px;}
+.f14{ font-size: 14px;}
+.f16{ font-size: 16px;}
+.f18{ font-size: 18px;}
+.f20{ font-size: 20px;}
+.f22{ font-size: 22px;}
+.f24{ font-size: 24px;}
+.f26{ font-size: 26px;}
+.f30{ font-size: 30px;}
+
+.cor4{ color: #f00}
+
+.mt1{ margin-top: 1px !important;}.mt2{ margin-top: 2px !important;}.mt3{ margin-top: 3px !important;}.mt4{ margin-top: 4px !important;}.mt5{ margin-top: 5px !important;}.mt6{ margin-top: 6px !important;}.mt7{ margin-top: 7px !important;}.mt8{ margin-top: 8px !important;}
+.mt9{ margin-top: 9px !important;}.mt10{ margin-top: 10px !important;}.mt15{ margin-top: 15px !important;}.mt20{ margin-top: 20px !important;}.mt50{ margin-top: 50px !important;}
+
+.mb1{ margin-bottom: 1px !important;}.mb2{ margin-bottom: 2px !important;}.mb3{ margin-bottom: 3px !important;}.mb4{ margin-bottom: 4px !important;}.mb5{ margin-bottom: 5px !important;}.mb6{ margin-bottom: 6px !important;}.mb7{ margin-bottom: 7px !important;}.mb8{ margin-bottom: 8px !important;}.mb9{ margin-bottom: 9px !important;}.mb10{ margin-bottom: 10px !important;}.mb15{ margin-bottom: 15px !important;}.mb20{ margin-bottom: 20px !important;}.mb30{ margin-bottom: 30px !important;}
+
+.ml1{ margin-left: 1px !important;}.ml2{ margin-left: 2px !important;}.ml3{ margin-left: 3px !important;}.ml4{ margin-left: 4px !important;}.ml5{ margin-left: 5px !important;}.ml6{ margin-left: 6px !important;}.ml7{ margin-left: 7px !important;}
+.ml8{ margin-left: 8px !important;}.ml9{ margin-left: 9px !important;}.ml10{ margin-left: 10px !important;}.ml15{ margin-left: 15px !important;}.ml20{ margin-left: 20px !important;}
+
+.mr1{ margin-right: 1px !important;}.mr2{ margin-right: 2px !important;}.mr3{ margin-right: 3px !important;}.mr4{ margin-right: 4px !important;}.mr5{ margin-right: 5px !important;}.mr6{ margin-right: 6px !important;}.mr7{ margin-right: 7px !important;}.mr8{ margin-right: 8px !important;}.mr9{ margin-right: 9px !important;}.mr10{ margin-right: 10px !important;}.mr15{ margin-right: 15px !important;}.mr20{ margin-right: 20px !important;}
+
+.pl1{ padding-left: 1px !important;}.pl2{ padding-left: 2px !important;}.pl3{ padding-left: 3px !important;}.pl4{ padding-left: 4px !important;}.pl5{ padding-left: 5px !important;}.pl6{ padding-left: 6px !important;}.pl7{ padding-left: 7px !important;}.pl8{ padding-left: 8px !important;}.pl9{ padding-left: 9px !important;}.pl10{ padding-left: 10px !important;}.pl15{ padding-left: 15px !important;}.pl20{ padding-left: 20px !important;}
+
+.pt1{ padding-top: 1px !important;}.pt2{ padding-top: 2px !important;}.pt3{ padding-top: 3px !important;}.pt4{ padding-top: 4px !important;}.pt5{ padding-top: 5px !important;}.pt6{ padding-top: 6px !important;}.pt7{ padding-top: 7px !important;}.pt8{ padding-top: 8px !important;}.pt9{ padding-top: 9px !important;}.pt10{ padding-top: 10px !important;}.pt15{ padding-top: 15px !important;}.pt20{ padding-top: 20px !important;}
+
+.pr1{ padding-right: 1px !important;}.pr2{ padding-right: 2px !important;}.pr3{ padding-right: 3px !important;}.pr4{ padding-right: 4px !important;}.pr5{ padding-right: 5px !important;}.pr6{ padding-right: 6px !important;}.pr7{ padding-right: 7px !important;}.pr8{ padding-right: 8px !important;}.pr9{ padding-right: 9px !important;}.pr10{ padding-right: 10px !important;}.pr15{ padding-right: 15px !important;}.pr20{ padding-right: 20px !important;}
+
+.pb1{ padding-bottom: 1px !important;}.pb2{ padding-bottom: 2px !important;}.pb3{ padding-bottom: 3px !important;}.pb4{ padding-bottom: 4px !important;}.pb5{ padding-bottom: 5px !important;}.pb6{ padding-bottom: 6px !important;}.pb7{ padding-bottom: 7px !important;}.pb8{ padding-bottom: 8px !important;}.pb9{ padding-bottom: 9px !important;}.pb10{ padding-bottom: 10px !important;}.pb15{ padding-bottom: 15px !important;}.pb20{ padding-bottom: 20px !important;}
+
+.height20{
+    width: 100%;
+    height: 20px;
+}
+
+.el-textarea__inner{
+    font-family: "Microsoft YaHei UI";
+}
+
+.list-table{
+    width: 100%;
+    margin-top: 10px;
+}
+.list-page{
+    text-align: right;
+    padding-top: 20px;
+}
+.audit-result-form{
+    margin: 20px 0px 35px 0px;
+}
+.audit-result{
+    height: 210px;
+    /*margin-bottom: 35px;*/
+}
+.audit-result .print-result{
+    height: 210px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.audit-result .el-textarea__inner{
+    border: none;
+    resize: none;
+}
+.audit-result ul{
+    height: 200px;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.audit-result ul li{
+    cursor: pointer;
+}
+.audit-result ul li::before{
+    content: '● ';
+    color: rgb(11, 153, 11);
+    font-size: 18px;
+}
+.audit-result ul li:hover{
+    background-color: rgb(206, 216, 216);
+}
+.audit-footer{
+    position: fixed;
+    bottom: 0px;
+    width: calc(100% - 250px);
+    height: 50px;
+    line-height: 50px;
+    background: rgba(240, 241, 243, 0.726);
+    z-index: 1;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+.info-title{
+    border-left: 3px solid #25ada3;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 2px 0px 2px 5px;
+}
+.img-hw100 img{
+    width: 100px;
+    height: 100px;
+}
+.img-hw150 img{
+    width: 150px;
+    height: 150px;
+}
+.img-w100-h-auto img{
+    width: 100px;
+    max-height: 100%;
+}
+.img-w150-h-auto img{
+    width: 150px;
+    max-height: 100%;
+}
+.none-border{
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border: none !important;
+}
+.none-border-buttom{
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border-bottom: none !important;
+}
+
+.main{
+    /*width: calc( 100% - 10px );
+    height: calc( 100vh - 70px );
+    overflow-y: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    margin-left: 10px;*/
+}
+
+.main::-webkit-scrollbar{
+    width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+}
+.main::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #eaeaea;
+}
+.main::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #ddd;
+}
+
+
